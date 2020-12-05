@@ -1,0 +1,26 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: black;
+    color: burlywood;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+#borderBox{
+    background-color: burlywood;
+    width: 500px;
+    height: 500px;
+}
+button:hover{
+    cursor: pointer;
+}
+#cssToCopy{
+    height: 200px;
+    width: 100vw;
+    color: aliceblue;
+}
